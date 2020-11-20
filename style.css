@@ -96,7 +96,7 @@ main {
 }
 
 .container {
-	display: flex;
+	display: flow-root;
 	flex-wrap: wrap;
 	justify-content: center;
 }
