@@ -96,8 +96,9 @@ main {
 }
 
 .container {
-	display: flow-root;
+	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
 }
 
