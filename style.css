@@ -93,6 +93,7 @@ footer {
 
 main {
 	background-image: url("banner.jpg");
+	background-size: 100% auto;
 }
 
 .container {
