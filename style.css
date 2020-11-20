@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 .img-footer {
-	width: 6%;
+	width: 100px;
 }
 
 footer {
@@ -108,16 +108,7 @@ main {
 	display: inline-block;
 }
 
-thead {
-	background: #555555;
-	color: white;
-	font-weight: bold;
-}
-
 /* css da página inicial */
-.banner {
-	width:100%;
-}
 
 .titulo-principal {
 	text-align: center;
