@@ -29,7 +29,7 @@ function Home(){
                                 <li className="itens">Java</li>
                                 <li className="itens">PHP</li>
                                 <li className="itens">CSS/HTML5</li>
-                                <li className="itens">Javascript/Jquery</li>
+                                <li className="itens">Javascript/Jquery/ReactJs</li>
                                 <li className="itens">Python</li>
                                 <li className="itens">Docker</li>
                                 <li className="itens">Android Studio</li>
