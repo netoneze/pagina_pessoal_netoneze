@@ -4,25 +4,28 @@ import Linkedin from '../../img/linkedin.png';
 
 function Contato(){
     return (
-            <main className="item-container">
+            <main className="item-container" id="itemPrincipal">
                 <div className="principal">
-                    <h2 className="titulo-principal">Entre em contato</h2>
+                    <div className="saudacoes-principal">
+                        <h2 className="titulo-principal">Entre em contato</h2>
+                    </div>
 
                     <br/>
+                    <div className="contato-principal">
+                        <h2>Github</h2>
+                        <p> Página pessoal do GitHub</p>
+                        <a href="https://github.com/netoneze">
+                            <img className="imagens-corpo imagens-corpo-contato" src={Github} alt="contato1" title="Logotipo Github"/>
+                        </a>
 
-                    <h2 className="titulo-principal">Github</h2>
-                    <a href="https://github.com/netoneze">
-                        <img className="imagens-corpo" src={Github} alt="contato1"/>
-                    </a>
-                    <p> Página pessoal do GitHub</p>
+                        <br/>
 
-                    <br/>
-
-                    <h2 className="titulo-principal">LinkedIn</h2>
-                    <a href="https://www.linkedin.com/in/nelson-antonio-neto-toneze-01b89352/">
-                        <img className="imagens-corpo" src={Linkedin} alt="contato2"/>
-                    </a>
-                    <p> Página pessoal do LinkedIn</p>
+                        <h2>LinkedIn</h2>
+                        <p> Página pessoal do LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/nelson-antonio-neto-toneze-01b89352/">
+                          <img className="imagens-corpo imagens-corpo-contato" src={Linkedin} alt="contato2" title="Logotipo LinkedIn"/>
+                        </a>
+                    </div>
                 </div>
             </main>
     )
