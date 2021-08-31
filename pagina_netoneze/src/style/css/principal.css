@@ -30,14 +30,6 @@ header {
     padding: 30px;
 }
 
-.img-usuario-perfil {
-    max-width: 250px;
-}
-
-.img-usuario-perfil-canto {
-    max-width: 50px;
-}
-
 nav {
     margin-top: auto;
     margin-left: auto;
@@ -65,12 +57,15 @@ nav a:hover {
 }
 
 main {
+    display: flex;
+    align-items: center;
     background-color: #949494;
     background-size: 100% auto;
     min-height: 650px;
 }
 
 .principal {
+    display: inline-block;
     padding: 3em 0;
     width: 940px;
     margin: 0 auto;
@@ -81,18 +76,41 @@ main {
     font-size: 22px;
 }
 
-.texto-plataformas-principal{
-    display: inline-block;
-}
-
 .saudacoes-principal {
     padding: 0px 30px 30px 30px;
 }
 
-.img-plataformas-principal {
+.contato-principal {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+}
+
+.imagens-corpo {
     float: left;
     margin: 0px 30px 30px 30px;
     max-width: 200px;
+    min-width: 200px;
+}
+
+.imagens-corpo-proj {
+    position: relative;
+    bottom: 90px;
+}
+
+.imagens-corpo-contato {
+    position: relative;
+    bottom: 25px;
+}
+
+.titulo-projeto-proj3 {
+    position: relative;
+    left: 60px;
+}
+
+.texto-corpo {
+    text-align: justify;
 }
 
 .help-text {
@@ -139,21 +157,39 @@ footer {
     clear: left;
 }
 
-.btn-fechar {
-    margin: 8px 8px 0 0;
-    text-align: right;
+.titulo-projeto {
+    padding-top: 20px;
 }
 
-.nomeUsuarioTopo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 20px;
+.skills {
+    padding: 3em 0;
 }
 
-.spanNomeUsuario {
-    margin-top: auto;
+.conteudo-skills {
+    position: relative;
+    width: 640px;
+    margin: 0 auto;
 }
+
+.lista-skills {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.imagem-skills {
+    position: relative;
+    width: 190px;
+    float: left;
+    margin: 0 20px 20px 0;
+
+}
+
 @media screen and (max-width: 480px) {
     .caixa-superior, .principal {
         width: auto;
@@ -165,5 +201,9 @@ footer {
 
     nav {
         position: static;
+    }
+
+    .lista-skills, .imagem-skills {
+        width: 100%;
     }
 }
