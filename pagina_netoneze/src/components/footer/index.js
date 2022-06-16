@@ -4,7 +4,7 @@ function Footer(){
     return (
         <footer className="item-container">
             <img className="img-footer" src={Logo} alt="Logotipo netoneze" title="Logotipo footer"/>
-                <p className="copyright">Copyright Netoneze - 2021</p>
+                <p className="copyright">Copyright Netoneze - 2022</p>
         </footer>
     )
 }

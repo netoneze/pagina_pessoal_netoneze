@@ -12,10 +12,9 @@ function Home(){
                         <img className="imagens-corpo" src={Perfil} alt="Imagem de perfil" title="Imagem de perfil Nelson"/>
 
                         <div className="texto-corpo">
-                            <p> Olá, tudo bem? <br/> Meu nome é Nelson Antonio Neto Toneze, estudo engenharia de software na <strong>Universidade
-                            Tecnológica Federal do Paraná</strong> em Cornélio Procópio - PR. <br/> Atualmente sou estagiário
-                            na Coordenadoria de Gestão de Tecnologia da Informação (COGETI) da universidade, onde atuo como
-                            desenvolvedor web full-stack. <br/>
+                            <p> Olá, tudo bem? <br/> Meu nome é Nelson Antonio Neto Toneze, estou no último período de engenharia de software na <strong>Universidade
+                            Tecnológica Federal do Paraná</strong> em Cornélio Procópio - PR. <br/> Atualmente trabalho como desenvolvedor iOS no C6 Bank, atuando em implementações
+                                e correções no aplicativo do banco. <br/>
                             Sou apaixonado por tecnologia, principalmente envolvendo smartphones, wearables e games 📱 ⌚️ 🎮
                             </p>
                         </div>
@@ -26,10 +25,11 @@ function Home(){
 
                         <div className="conteudo-skills">
                             <ul className="lista-skills">
+                                <li className="itens">Swift</li>
                                 <li className="itens">Java</li>
                                 <li className="itens">PHP</li>
                                 <li className="itens">CSS/HTML5</li>
-                                <li className="itens">Javascript/Jquery/ReactJs</li>
+                                <li className="itens">Javascript/Jquery/React/NextJs</li>
                                 <li className="itens">Python</li>
                                 <li className="itens">Docker</li>
                                 <li className="itens">Android Studio</li>
